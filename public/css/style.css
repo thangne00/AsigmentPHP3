@@ -1,0 +1,12 @@
+/* Giữ tỷ lệ của hình ảnh */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Kích thước cụ thể nhưng không bóp méo */
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Thay đổi giá trị này theo nhu cầu của bạn */
+}

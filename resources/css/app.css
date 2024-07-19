@@ -1,0 +1,7 @@
+.img-thumbnail {
+    width: 100%;        /* Chiếm toàn bộ chiều rộng của phần chứa nó */
+    height: auto;       /* Tự động điều chỉnh chiều cao để giữ tỷ lệ gốc */
+    max-height: 200px;  /* Kích thước tối đa cho chiều cao */
+    object-fit: cover;  /* Cắt ảnh để phù hợp với khu vực, không làm bóp méo */
+    margin-bottom: 10px; /* Khoảng cách dưới ảnh */
+}
